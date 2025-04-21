@@ -26,31 +26,7 @@ This is a clone for existing Grab app. It is a modularized iOS project written i
 - We have Auth / ServiceItem and Common modules.
 - Common module includes sharable logic for all other framework including network logic, App colors, data persistence with core data
 
-  Auth
-├── AuthDIContainer.swift
-├── Data
-│   ├── UserDataSource.swift
-│   └── UserRepository.swift
-├── Domain
-│   ├── LoginUseCase.swift
-│   ├── SignupUseCase.swift
-│   └── UserEntity.swift
-├── Presentation
-│   ├── Coordinator
-│   │   └── AuthCoordinator.swift
-│   ├── Login
-│   │   ├── LoginViewController.swift
-│   │   └── LoginViewModel.swift
-│   ├── SignUp
-│   │   ├── SignUpViewController.swift
-│   │   └── SignUpViewModel.swift
-│   └── SplashScreen
-│       └── SplashViewController.swift
-├── Resources
-│   └── Auth (Storyboard/XIB or assets)
-└── Tests
-    └── AuthTests
-        └── AuthTests.swift
+<img width="329" alt="Screenshot 2025-04-21 at 11 49 33 PM" src="https://github.com/user-attachments/assets/c8f0d5ee-0160-4c51-847a-bead6faab0df" />
 
 ---
 
